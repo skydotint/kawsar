@@ -1,0 +1,42 @@
+.DS_Store
+
+.htaccess1
+
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
+
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+/vendor/
+
+application - Copy/
+user_guide_src/
+ion/
+tests/
+system/
+system-github/
+.gitignore
+application/config/config - tormuz.php
+application/config/config - server.php
+application/config/config - cpf.php
+application/config/config-local.php
+application/config/config.php
+application/config/database - tormuz.php
+application/config/database - server.php
+application/config/database-local.php
+application/config/database.php
+uploads/
+
+assets/upload_lib/
+
+blog/*
+
+!/.gitignore
+!blog/wp-content/themes/twentytwelve/*

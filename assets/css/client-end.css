@@ -1,0 +1,810 @@
+/* ----- */
+/* FONTS */
+/* ----- */
+/*---------THIN-----------*/
+
+	@font-face {
+	     font-family: 'Proxima Nova';
+	     src: url('../font/ProximaNova-Thin-webfont.eot');
+	     src: url('../font/ProximaNova-Thin-webfont.eot') format('embedded-opentype'),
+	     url('../font/ProximaNova-Thin-webfont.woff') format('woff'),
+	     url('../font/ProximaNova-Thin-webfont.ttf') format('truetype'),
+	     url('../font/ProximaNova-Thin-webfont.svg') format('svg');
+	     font-weight: 200;
+	     font-style: normal;
+	}
+
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+	     @font-face {
+	          font-family: 'Proxima Nova';
+	          src: url('../font/ProximaNova-Thin-webfont.svg') format('svg');
+	          font-weight: 200;
+	          font-style: normal;
+	     }
+
+	}
+
+	/*---------THIN ITALIC-----------*/
+
+	@font-face {
+	     font-family: 'Proxima Nova';
+	     src: url('../font/ProximaNova-ThinIt-webfont.eot');
+	     src: url('../font/ProximaNova-ThinIt-webfont.eot') format('embedded-opentype'),
+	     url('../font/ProximaNova-ThinIt-webfont.woff') format('woff'),
+	     url('../font/ProximaNova-ThinIt-webfont.ttf') format('truetype'),
+	     url('../font/ProximaNova-ThinIt-webfont.svg') format('svg');
+	     font-weight: 200;
+	     font-style: italic;
+	}
+
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+	     @font-face {
+	          font-family: 'Proxima Nova';
+	          src: url('../font/ProximaNova-ThinIt-webfont.svg') format('svg');
+	          font-weight: 200;
+	          font-style: italic;
+	     }
+
+	}
+
+	/*---------LIGHT-----------*/
+
+	@font-face {
+	     font-family: 'Proxima Nova';
+	     src: url('../font/ProximaNova-Light-webfont.eot');
+	     src: url('../font/ProximaNova-Light-webfont.eot') format('embedded-opentype'),
+	     url('../font/ProximaNova-Light-webfont.woff') format('woff'),
+	     url('../font/ProximaNova-Light-webfont.ttf') format('truetype'),
+	     url('../font/ProximaNova-Light-webfont.svg') format('svg');
+	     font-weight: 300;
+	     font-style: normal;
+	}
+
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+	     @font-face {
+	          font-family: 'Proxima Nova';
+	          src: url('../font/ProximaNova-Light-webfont.svg') format('svg');
+	          font-weight: 300;
+	          font-style: normal;
+	     }
+
+	}
+
+	/*---------LIGHT ITALIC-----------*/
+
+	@font-face {
+	     font-family: 'Proxima Nova';
+	     src: url('../font/ProximaNova-LightIt-webfont.eot');
+	     src: url('../font/ProximaNova-LightIt-webfont.eot') format('embedded-opentype'),
+	     url('../font/ProximaNova-LightIt-webfont.woff') format('woff'),
+	     url('../font/ProximaNova-LightIt-webfont.ttf') format('truetype'),
+	     url('../font/ProximaNova-LightIt-webfont.svg') format('svg');
+	     font-weight: 300;
+	     font-style: italic;
+	}
+
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+	     @font-face {
+	          font-family: 'Proxima Nova';
+	          src: url('../font/ProximaNova-LightIt-webfont.svg') format('svg');
+	          font-weight: 300;
+	          font-style: italic;
+	     }
+
+	}
+
+	/*---------REGULAR-----------*/
+
+	@font-face {
+	     font-family: 'Proxima Nova';
+	     src: url('../font/ProximaNova-Reg-webfont.eot');
+	     src: url('../font/ProximaNova-Reg-webfont.eot') format('embedded-opentype'),
+	     url('../font/ProximaNova-Reg-webfont.woff') format('woff'),
+	     url('../font/ProximaNova-Reg-webfont.ttf') format('truetype'),
+	     url('../font/ProximaNova-Reg-webfont.svg') format('svg');
+	     font-weight: 500;
+	     font-style: normal;
+	}
+
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+	     @font-face {
+	          font-family: 'Proxima Nova';
+	          src: url('../font/ProximaNova-Reg-webfont.svg') format('svg');
+	          font-weight: 500;
+	          font-style: normal;
+	     }
+
+	}
+
+	/*---------REGULAR ITALIC-----------*/
+
+	@font-face {
+	     font-family: 'Proxima Nova';
+	     src: url('../font/ProximaNova-RegIt-webfont.eot');
+	     src: url('../font/ProximaNova-RegIt-webfont.eot') format('embedded-opentype'),
+	     url('../font/ProximaNova-RegIt-webfont.woff') format('woff'),
+	     url('../font/ProximaNova-RegIt-webfont.ttf') format('truetype'),
+	     url('../font/ProximaNova-RegIt-webfont.svg') format('svg');
+	     font-weight: 500;
+	     font-style: italic;
+	}
+
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+	     @font-face {
+	          font-family: 'Proxima Nova';
+	          src: url('../font/ProximaNova-RegIt-webfont.svg') format('svg');
+	          font-weight: 500;
+	          font-style: italic;
+	     }
+
+	}
+
+	/*---------BOLD-----------*/
+
+	@font-face {
+	     font-family: 'Proxima Nova';
+	     src: url('../font/ProximaNova-Bold-webfont.eot');
+	     src: url('../font/ProximaNova-Bold-webfont.eot') format('embedded-opentype'),
+	     url('../font/ProximaNova-Bold-webfont.woff') format('woff'),
+	     url('../font/ProximaNova-Bold-webfont.ttf') format('truetype'),
+	     url('../font/ProximaNova-Bold-webfont.svg') format('svg');
+	     font-weight: 700;
+	     font-style: normal;
+	}
+
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+	     @font-face {
+	          font-family: 'Proxima Nova';
+	          src: url('../font/ProximaNova-Bold-webfont.svg') format('svg');
+	          font-weight: 700;
+	          font-style: normal;
+	     }
+
+	}
+
+	/*---------BOLD ITALIC-----------*/
+
+	@font-face {
+	     font-family: 'Proxima Nova';
+	     src: url('../font/ProximaNova-BoldIt-webfont.eot');
+	     src: url('../font/ProximaNova-BoldIt-webfont.eot') format('embedded-opentype'),
+	     url('../font/ProximaNova-BoldIt-webfont.woff') format('woff'),
+	     url('../font/ProximaNova-BoldIt-webfont.ttf') format('truetype'),
+	     url('../font/ProximaNova-BoldIt-webfont.svg') format('svg');
+	     font-weight: 700;
+	     font-style: italic;
+	}
+
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+	     @font-face {
+	          font-family: 'Proxima Nova';
+	          src: url('../font/ProximaNova-BoldIt-webfont.svg') format('svg');
+	          font-weight: 700;
+	          font-style: italic;
+	     }
+
+	}
+
+body {
+font-family: 'Proxima Nova';	
+}
+
+#header-client {
+background: #404040;
+}
+
+.clear:before,
+.clear:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clear:after {
+content: " "; /* Older browser do not support empty content */
+visibility: hidden;
+display: block;
+height: 0;
+clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clear {
+    *zoom: 1;
+}
+
+#header-client .logo {
+color: #33b9ff;
+text-transform: uppercase;
+font-size: 16px;
+font-weight: bold;
+display: inline-block;
+padding: 17px 0;
+}
+
+#header-client ul.menu {
+margin: 0;
+padding: 0;
+}
+
+#header-client ul.menu li {
+display: inline-block;
+padding: 0px 15px;
+}
+
+#header-client ul.menu li a {
+background: url(../images/clientend-header-icons.png) no-repeat;
+display: inline-block;
+padding-left: 60px;
+overflow: hidden;
+color: #33b9ff;
+margin-top: 9px;
+padding-top: 10px;
+padding-bottom: 9px;
+font-weight: bold;
+}
+
+#header-client ul.menu li a.home {
+text-indent: -99999px;
+padding: 9px 38px;
+background-position: 21px top;
+}
+
+#header-client ul.menu li a.settings {
+background-position: 0px -35px;
+/*width: 50px;*/
+}
+
+#header-client ul.menu li a.pickdrop {
+background-position: 0px -73px;
+/*width: 50px;*/
+}
+
+#header-client ul.menu li a.notification {
+background-position: 0px -112px;
+}
+
+#header-client ul li.item.current {
+background: #faf7f7;
+}
+
+#header-client ul.menu li ul {
+display: none;
+}
+
+#header-client ul li.item.current ul {
+display: block;
+position: absolute;
+margin: 0;
+padding: 0;
+background: #faf7f7;
+left: 0;
+right: 0;
+text-align: center;
+}
+
+#header-client ul.menu ul li {
+}
+
+#header-client ul.menu ul li a {
+padding: 0;
+background: none;
+margin: 0;
+padding: 17px 20px 10px;
+}
+
+/* right side */
+#header-client .user-meta {
+margin-top: 7px;
+}
+
+#header-client .user-meta > a {
+background: url(../assets/images/clientend-header-icons.png) no-repeat;
+display: inline-block;
+overflow: hidden;
+padding-left: 40px;
+padding: 9px 0px 9px 40px;
+font-weight: bold;
+color: #33b9ff;
+}
+
+#header-client .user-meta > a.chat {
+background-position: 0px -153px;
+}
+
+#header-client .user-meta > a.user {
+background-position: 0px -193px;
+padding: 18px 19px;
+margin-left: 20px;
+}
+
+
+
+/* main body */
+/* ========= */
+.main-body {
+margin-top: 70px;
+}
+
+.page-title {
+font-size: 22px;
+}
+
+
+
+/* footer */
+/* ====== */
+footer .footer-area {
+padding: 20px 0;
+font-size: 13px;
+color: #666;
+margin-top: 30px;
+background: #eee;
+}
+
+
+/* Order/Job page */
+/* ============== */
+.jobs h1.page-title {
+font-size: 24px;
+line-height: 18px;
+margin-top: 40px;
+margin-bottom: 30px;
+}
+
+.page-title .new-order {
+	margin-left: 20px;
+}
+
+.big_job_id {
+color: rgb(24, 165, 219);
+font-weight: bold;
+font-size: 26px;
+margin-bottom: 30px;
+}
+
+.jobs input[type="text"], .jobs textarea {
+width: 100%;
+-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+.jobs input[type="text"] {
+height: 32px;
+}
+
+
+/* fetch files */
+/* =========== */
+.upload-info {
+text-align: center;
+margin-top: 10px;
+font-weight: bold;
+font-size: 14px;
+}
+
+.fetch-ftp {
+cursor: pointer;
+}
+
+#fetch-ftp {
+/*display: none;*/
+overflow: hidden;
+padding: 20px;
+background: #f9f9f9;
+border-radius: 4px;
+border: 1px solid #ddd;
+-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+.modal-content form {
+margin: 0;
+}
+
+#fetch-ftp .input_row:last-child {
+margin-bottom: 0;
+}
+
+#fetch-ftp form {
+margin-bottom: 0;
+}
+
+#fetch-ftp label,  #fetch-ftp input[type="text"] {
+width: 50%;
+float: left;
+}
+
+.check_status {
+margin-right: 10px;
+}
+
+
+
+/* upload module */
+/* ============= */
+.ajax-file-upload-statusbar {
+border: 1px solid #ddd;
+margin-top: 10px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+padding: 5px 5px 5px 5px;
+}
+
+.ajax-file-upload-filename {
+width: 100%;
+height: auto;
+margin: 0 5px 5px 10px;
+color: #807579
+}
+
+.ajax-file-upload-progress {
+position: relative;
+width: 100%;
+border: 1px solid #ddd;
+padding: 1px;
+border-radius: 3px;
+display: block;
+margin: 5px 0;
+}
+
+.ajax-file-upload-bar {
+background-color: #62C55E;
+width: 0;
+height: 2px;
+border-radius: 3px;
+color: #FFFFFF;
+}
+
+.ajax-file-upload-percent {
+position: absolute;
+display: inline-block;
+top: 3px;
+left: 48%
+}
+
+.ajax-file-upload-red {
+background-color: #FF5A4C;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+display: inline-block;
+color: #fff;
+font-size: 13px;
+font-weight: normal;
+padding: 4px 10px;
+text-decoration: none;
+text-shadow: 0 1px 0 #b23e35;
+cursor: pointer;
+vertical-align: top;
+margin-right: 5px;
+}
+
+.ajax-file-upload-green {
+background-color: #77b55a;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+margin: 0;
+padding: 0;
+display: inline-block;
+color: #fff;
+font-size: 13px;
+font-weight: normal;
+padding: 4px 8px;
+text-decoration: none;
+cursor: pointer;
+text-shadow: 0 1px 0 #5b8a3c;
+vertical-align: top;
+margin-right: 5px;
+}
+
+.ajax-file-upload {
+font-weight: bold;
+cursor: pointer;
+margin-right: 20px;
+display: inline-block;
+text-decoration: none;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+padding: 7px 20px;
+color: #fff;
+background: #17AD1D;
+border: none;
+-moz-box-shadow: 0 2px 0 0 #119717;
+-webkit-box-shadow: 0 2px 0 0 #119717;
+box-shadow: 0 2px 0 0 #119717;
+vertical-align: middle;
+}
+
+.ajax-file-upload:hover {
+background: #28C22F;
+-webkit-box-shadow: 0 2px 0 0 #119717;
+   -moz-box-shadow: 0 2px 0 0 #119717;
+		box-shadow: 0 2px 0 0 #119717;
+}
+
+.ajax-upload-dragdrop {
+border: 2px dashed #ccc;
+color: #ccc;
+padding: 30px 0px 33px;
+border-radius: 4px;
+text-align: center;
+}
+
+
+/* Image previewer box */
+/* =================== */
+.preview-area {
+margin-bottom: 20px;
+}
+
+.img-item {
+border: 1px solid #ddd;
+border-radius: 3px;
+overflow: hidden;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-ms-box-sizing: border-box;
+-o-box-sizing: border-box;
+box-sizing: border-box;
+margin-bottom: 20px;
+}
+
+
+.img-item .img {
+height: 178px;
+overflow: hidden;
+width: 100%;
+}
+
+.img-item .img img {
+min-height: 178px;
+width: 100%;
+}
+
+.controls {
+text-align: right;
+}
+
+.controls a i {
+	padding: 3px 4px;
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+
+/*arif*/
+.app-lines-content {
+	position: relative;
+}
+.app-slide {
+	/*position: absolute;
+	top: 0px;
+	left: 0px;*/
+	display: none;
+}
+
+.app-slide:first-child {
+	display: block;
+}
+
+.app-line-area {
+	position: relative;
+	margin-bottom: 50px;
+}
+.app-line-list {
+	display: table;
+	list-style: none;
+	margin: 0px;
+	position: relative;
+	z-index: 2;
+}
+.app-line-list li {
+	display: table-cell;
+	width: 200px;
+	text-align: center;
+	color: #aaa;
+}
+.app-line-list li .icon {
+	display: block;
+	height: 60px;
+	width: 90px;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+	background-position: center 0px;
+	background-color: #fff;
+}
+.app-line-list li .text {
+	display: block;
+}
+.app-line-list li .icon-01 {
+	background-image: url('../images/appicon/icon-01.png');
+}
+.app-line-list li .icon-02 {
+	background-image: url('../images/appicon/icon-02.png');
+}
+.app-line-list li .icon-03 {
+	background-image: url('../images/appicon/icon-04.png');
+}
+.app-line-list li .icon-04 {
+	background-image: url('../images/appicon/icon-03.png');
+}
+.app-line-list li .icon-05 {
+	background-image: url('../images/appicon/icon-06.png');
+}
+
+.app-line-area .border-hori {
+	width: 100%;
+	height: 1px;
+	background: #e5e5e5;
+	position: absolute;
+	top: 35%;
+	left: 0px;
+}
+.app-line-list li.active {
+	color: rgb(24, 165, 219);
+}
+.app-line-list li.active .icon-01 {
+	background-position: center -85px;
+}
+.app-line-list li.active .icon-02 {
+	background-position: center -84px;
+}
+.app-line-list li.active .icon-03 {
+	background-position: center -90px;
+}
+.app-line-list li.active .icon-04 {
+	background-position: center -85px;
+}
+.app-line-list li.active .icon-05 {
+	background-position: center -86px;
+}
+
+.paid-status-img-bar {
+	background: #e5e5e5;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+.paid-status-img-bar .paid-status-col {
+	display: block;
+	background: #41B1F0;
+	width: 20px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 100%;
+	font-weight: bold;
+}
+
+.paid-status-img {
+	display: none;
+}
+.app-img-cn {
+	border-top: 1px solid #e5e5e5;
+	padding: 8px 10px 5px;
+	display: table;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+.img-item.st-ok,
+.img-item.st-ok .app-img-cn {
+	border-color: rgb(53, 184, 53);
+}
+.img-item.st-cancel,
+.img-item.st-cancel .app-img-cn {
+	border-color: rgb(255, 95, 95);
+}
+
+.app-img-cn a {
+	display: inline-block;
+	font-size: 20px;
+	font-weight: normal;
+	text-decoration: none;
+	margin-right: 10px;
+	color: #909090;
+}
+
+.download-ways {
+	margin: 0px;
+	margin-bottom: 30px;
+}
+.download-area {
+	background: #e5e5e5;
+	padding: 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+.download-area h3 {
+	font-size: 20px;
+	margin: 0px;
+	line-height: 1.2;
+	margin-bottom: 15px;
+}
+
+.input_row {
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.input_row input {
+	margin-bottom: 0px;
+}
+
+.modal {
+	display: none;
+}
+
+.u_images_ftp,
+.to_u_images_ftp {
+	display: block;
+	border: 1px solid #e5e5e5;
+	padding: 20px;
+	margin-bottom: 30px;
+	border-radius: 4px;
+}
+.u_images_ftp h3 {
+	margin: 0px;
+	font-size: 22px;
+	line-height: 1.2;
+	margin-bottom: 10px;
+}
+
+.have-coupon-label {
+	display: inline-block;
+	vertical-align: middle;
+}
+.jobs .have-coupon-input {
+	/*display: inline-block;
+	visibility: hidden;
+	width: 150px !important;*/
+	/*margin-left: 15px;*/
+	/*vertical-align: middle;*/
+	position: relative;
+}
+.jobs .have-coupon-input.active {
+	visibility: visible;
+}
+
+i#submit_coupon_code {
+position: absolute;
+top: 4px;
+right: 3px;
+}
+
+li.final {
+border-top: 1px solid #ccc;
+margin-top: 5px;
+padding-top: 5px;
+}
