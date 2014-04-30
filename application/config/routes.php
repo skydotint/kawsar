@@ -111,6 +111,7 @@ $route['samrat'] = 'dashboards/welcome_dashboard';
 
 // Routes for Job
 $route['job'] = 'dashboards/joblists/joblist';
+$route['jobsingle'] = 'dashboards/jobdetails/jobdetail';
 
 // Routes for Employee
 $route['employee'] = 'dashboards/employee/employees';

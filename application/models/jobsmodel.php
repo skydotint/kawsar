@@ -17,9 +17,9 @@ class JobsModel extends CI_Model {
 
     public function getClientsubmittedjobs($id) {
         $sql = "SELECT id, name, service_type, created, completed, no_of_image, user_id, (
-                SELECT username FROM users WHERE users.id = jobs.user_id) AS name,
-                modified, todo, jobs.status FROM jobs WHERE user_id = (
-                SELECT user_id FROM users_groups WHERE user_id = jobs.user_id AND group_id ={$id})";
+                SELECT username FROM {$this->dbquery->_usersTable} WHERE users.id = {$this->dbquery->_jobsTable}.user_id) AS name,
+                modified, todo, {$this->dbquery->_jobsTable}.status FROM {$this->dbquery->_jobsTable} WHERE user_id = (
+                SELECT user_id FROM {$this->dbquery->_users_groupsTable} WHERE user_id = {$this->dbquery->_jobsTable}.user_id AND group_id ={$id})";
 
         $query = $this->db->query($sql);
         $result = $query->result_array();
@@ -28,9 +28,9 @@ class JobsModel extends CI_Model {
 
     public function getClientsubmittedjobswithDateBetween($id) {
         $sql = "SELECT id, name, service_type, created, completed, no_of_image, user_id, (
-					SELECT username FROM users WHERE users.id = jobs.user_id) AS name,
-					modified, todo, jobs.status FROM jobs WHERE user_id = (
-					SELECT user_id FROM users_groups WHERE user_id = jobs.user_id AND group_id ={$id} ) AND (created BETWEEN 1391716323 AND 1397273425)";
+					SELECT username FROM {$this->dbquery->_usersTable} WHERE users.id = {$this->dbquery->_jobsTable}.user_id) AS name,
+					modified, todo, {$this->dbquery->_jobsTable}.status FROM {$this->dbquery->_jobsTable} WHERE user_id = (
+					SELECT user_id FROM {$this->dbquery->_users_groupsTable} WHERE user_id = {$this->dbquery->_jobsTable}.user_id AND group_id ={$id} ) AND (created BETWEEN 1391716323 AND 1397273425)";
 
         $query = $this->db->query($sql);
         $result = $query->result_array();
@@ -39,9 +39,9 @@ class JobsModel extends CI_Model {
 
     public function getJobsbystatus($id, $status) {
         $sql = "SELECT id, name, service_type, created, completed, no_of_image, user_id, (
-				SELECT username FROM users WHERE users.id = jobs.user_id) AS name,
-				modified, todo, jobs.status FROM jobs WHERE user_id = (
-				SELECT user_id FROM users_groups WHERE user_id = jobs.user_id AND group_id ={$id} ) AND status = {$status}";
+				SELECT username FROM {$this->dbquery->_usersTable} WHERE users.id = {$this->dbquery->_jobsTable}.user_id) AS name,
+				modified, todo, {$this->dbquery->_jobsTable}.status FROM {$this->dbquery->_jobsTable} WHERE user_id = (
+				SELECT user_id FROM {$this->dbquery->_users_groupsTable} WHERE user_id = {$this->dbquery->_jobsTable}.user_id AND group_id ={$id} ) AND status = {$status}";
 
         $query = $this->db->query($sql);
         $result = $query->result_array();
@@ -50,9 +50,9 @@ class JobsModel extends CI_Model {
 
     public function getJobsbystatusDateBetween($id, $status) {
         $sql = "SELECT id, name, service_type, created, completed, no_of_image, user_id, (
-                SELECT username FROM users WHERE users.id = jobs.user_id) AS name,
-                modified, todo, jobs.status FROM jobs WHERE user_id = (
-                SELECT user_id FROM users_groups WHERE user_id = jobs.user_id AND group_id ={$id} ) AND status = {$status} AND (created BETWEEN 1391716323 AND 1397273425) LIMIT 0 , 30";
+                SELECT username FROM {$this->dbquery->_usersTable} WHERE users.id = {$this->dbquery->_jobsTable}.user_id) AS name,
+                modified, todo, {$this->dbquery->_jobsTable}.status FROM {$this->dbquery->_jobsTable} WHERE user_id = (
+                SELECT user_id FROM {$this->dbquery->_users_groupsTable} WHERE user_id = {$this->dbquery->_jobsTable}.user_id AND group_id ={$id} ) AND status = {$status} AND (created BETWEEN 1391716323 AND 1397273425)";
 
         $query = $this->db->query($sql);
         $result = $query->result_array();
