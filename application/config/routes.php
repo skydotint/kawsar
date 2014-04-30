@@ -102,5 +102,30 @@ $route['privacy-policy'] = 'cpf/privacy_policy';
 $route['partnership-program'] = 'cpf/partnership';
 
 
-/* End of file routes.php */
-/* Location: ./application/config/routes.php */
+
+// Routes for Dashboards
+$route['samrat'] = 'dashboards/welcome_dashboard';
+
+
+
+
+// Routes for Job
+$route['job'] = 'dashboards/joblists/joblist';
+
+// Routes for Employee
+$route['employee'] = 'dashboards/employee/employees';
+
+// Routes for User
+$route['user'] = 'dashboards/user/users';
+$route['invoice'] = 'dashboards/invoice/invoices';
+$route['singleinvoice'] = 'dashboards/invoice/singleinvoice';
+
+// Routes for Payment
+$route['cplpaymentgateway'] = 'dashboards/employee/employeesall';
+
+
+// Routes for Support
+$route['supportclippingpanel'] = 'dashboards/supportcontroll/supportforclipping';
+
+// Routes for Cupon
+$route['coupon'] = 'dashboards/coupon/all_coupon';

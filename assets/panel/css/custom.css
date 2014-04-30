@@ -1,0 +1,17 @@
+/**
+ *
+ * Apply Here your Custom CSS
+ *
+*/
+
+body {
+	
+}
+
+.half_time { background-color: #FAD839;}
+.one_fourth_time { background-color: #21A9E1;}
+.not_completed_but_time_over { background-color:#EE4749;}
+.completed_but_with_extra_time { background-color:#EBEBEB;}
+.completed_within_time { background-color:#00A651;}
+.menu select {padding: 5px 15px;}
+.input-group { margin-top: 10px;}

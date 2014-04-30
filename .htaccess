@@ -1,9 +1,20 @@
-RewriteEngine on
-RewriteCond $1 !^(index\.php|resources|robots\.txt)
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+#DirectoryIndex index.php
+#RewriteEngine On
+#RewriteBase /businessbuddy
+#RewriteBase /projects/kawsar
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond $1 !^(index\.php|robots\.txt)
+#RewriteRule ^(.*)$ index.php?/$1 [L]
 
-### redirect 301
-RewriteCond %{THE_REQUEST} ^.*/index\.php 
-RewriteRule ^(.*)index.php$ /$1 [R=301,L]
+
+
+#RewriteEngine on
+#RewriteCond $1 !^(index\.php|resources|robots\.txt)
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+#
+#### redirect 301
+#RewriteCond %{THE_REQUEST} ^.*/index\.php 
+#RewriteRule ^(.*)index.php$ /$1 [R=301,L]
